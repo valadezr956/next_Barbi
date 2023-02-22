@@ -37,43 +37,25 @@ export const Footer = () => {
               </Link>
             </div>
 
-            {/* Payment method */}
-            <div className='footer-top__payments'>
-              <span>Payment methods:</span>
-              <ul>
-                {paymentMethods.map((payment, index) => (
-                  <li key={index}>
-                    <img src={payment.icon} className='js-img' alt='' />
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-          <div className='footer-nav'>
-            {/* Footer Nav */}
-            {footerNav.map((nav, index) => (
-              <NavCol nav={nav} key={index} />
-            ))}
             <div className='footer-nav__col'>
               <span className='footer-nav__col-title'>Contact</span>
               <ul>
                 <li>
-                  <i className='icon-map-pin'></i> 27 Division St, New York, NY
-                  10002, USA
+                  <i className='icon-map-pin'></i> 5500 McPherson Rd, Laredo, TX
+                  78041, USA
                 </li>
                 <li>
                   <i className='icon-smartphone'></i>
                   <div className='footer-nav__col-phones'>
-                    <a href='tel:+13459971345'>+1 345 99 71 345</a>
-                    <a href='tel:+13457464975'>+1 345 74 64 975</a>
+                    <a href='tel:+19564800848'>+1 956 480 0848</a>
                   </div>
                 </li>
                 <li>
                   <i className='icon-mail'></i>
-                  <a href='mailto:info@beshop.com'>info@beshop.com</a>
+                  <a href='mailto:info@beshop.com'>ana648@hotmail.com</a>
                 </li>
               </ul>
-            </div>
+            </div>          
           </div>
           <div className='footer-copy'>
             <span>&copy; All rights reserved. BeShop 2020</span>

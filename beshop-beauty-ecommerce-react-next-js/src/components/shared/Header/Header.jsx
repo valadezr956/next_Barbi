@@ -8,7 +8,6 @@ import { Nav } from './Nav/Nav';
 
 export const Header = () => {
   const { cart } = useContext(CartContext);
-  const [promo, setPromo] = useState(true);
   const [fixedNav, setFixedNav] = useState(false);
   const [openMenu, setOpenMenu] = useState(false);
   const [height, width] = useWindowSize();
@@ -45,28 +44,19 @@ export const Header = () => {
     <>
       {/* <!-- BEGIN HEADER --> */}
       <header className='header'>
-        {promo && (
-          <div className='header-top'>
-            <span>30% OFF ON ALL PRODUCTS ENTER CODE: beshop2020</span>
-            <i
-              onClick={() => setPromo(false)}
-              className='header-top-close js-header-top-close icon-close'
-            ></i>
-          </div>
-        )}
         <div className={`header-content ${fixedNav ? 'fixed' : ''}`}>
-          <div className='header-logo'>
+          {/*TODO Logo for website <div className='header-logo'>
             <Link href='/'>
               <a>
                 <img src={header.logo} alt='' />
               </a>
             </Link>
-          </div>
+          </div> */}
           <div style={{ right: openMenu ? 0 : -360 }} className='header-box'>
             {/* Nav */}
             <Nav navItem={navItem} />
             {/* header options */}
-            <ul className='header-options'>
+            {/* <ul className='header-options'>
               <li>
                 <Link href='/faq'>
                   <a>
@@ -96,7 +86,7 @@ export const Header = () => {
                   </a>
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
 
           <div

@@ -1,13 +1,13 @@
 [
   {
-    "categoryId": "spa",
-    "name": "SPA",
-    "image": "/assets/img/top-categories-img1.jpg"
+    "categoryId": "cavitation",
+    "name": "Cavitation",
+    "image": "/assets/img/categories-cavitation-img1.jpg"
   },
   {
     "categoryId": "nails",
     "name": "Nails",
-    "image": "/assets/img/top-categories-img2.jpg"
+    "image": "/assets/img/categories-nails-img1.jfif"
   },
   {
     "categoryId": "perfume",

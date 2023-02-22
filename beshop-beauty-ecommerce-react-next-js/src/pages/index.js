@@ -20,9 +20,6 @@ export default function Home() {
       <Advantage />
       <TopCategories />
       <Info />
-      <NewArrivals />
-      <LatestNews />
-      <Subscribe />
     </Layout>
   );
 }
